@@ -8,7 +8,9 @@ A Lambda function that displays the Global IP of the access source.<br />
 
 ## Archtecture
 
-In order for the service to function and serve in the real world, it is necessary to properly configure the AWS provided WAF/API gateway (with Cognito authentication if necessary) and design the overall architecture with security in mind. If you need an https session, you need to additionally build an environment for SSL processing on AWS (using ACM and ALB, for example).<br />
+In order for the service to function and serve in the real world,<br />
+it is necessary to properly configure the AWS provided WAF/API gateway (with Cognito authentication if necessary) and design the overall architecture with security in mind.<br />
+If you need an https session, you need to additionally build an environment for SSL processing on AWS (using ACM and ALB, for example).<br />
 
 ACM - AWS Certificate Manager<br />
 ALB - Application Load Balancer<br />
