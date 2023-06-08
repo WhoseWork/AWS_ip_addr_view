@@ -31,7 +31,7 @@ http(s)://api gateway address/<br />
 When you access it with a web browser,<br />
 the access source Global IPv4 Address and the access date and time are displayed in json format.<br />
 
-{"statusCode": 200, "globalIPv4": "xxx.xxx.xxx.xxx", "accessDate": "isoformat(utc)"}<br />
+{"statusCode":"200", "urGlobalIPv4": "xxx.xxx.xxx.xxx", "accessDate": "isoformat(UTC)"} <br />
 
 Please understand that this is not a perfect method.
 This is just one example.
