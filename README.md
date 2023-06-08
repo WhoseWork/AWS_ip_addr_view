@@ -24,7 +24,7 @@ cloudwatch -The execution result is logged.<br />
 
 ## Usage (execution of function)
 
-http(s)://api gateway address/<br />
+http(s)://api endpoint address/<br />
 
 ## Result json sample
 
