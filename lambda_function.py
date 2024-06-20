@@ -10,9 +10,7 @@ def lambda_handler(event, context):
 
     # data generation for response (dictionary type)
     rtn_json = {"statusCode":"200", "urGlobalIPv4": str(event.get('source_ip')), "accessDate": str(datetime.utcnow().isoformat())}
-    
-    # Route53 update 機能を実装予定
-    
+ 
     # write execution logs to Cloudwatch
     logger.info(rtn_json)
 
